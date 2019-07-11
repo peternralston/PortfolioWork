@@ -1,0 +1,195 @@
+﻿using System; 
+
+namespace Warmups.BLL
+{
+    public class Conditionals
+    {
+        public bool AreWeInTrouble(bool aSmile, bool bSmile)
+        {
+            bool areInTrouble = false;
+
+            if (aSmile == bSmile)
+            {
+                areInTrouble = true;
+            }
+
+            return areInTrouble;
+        }
+
+        public bool CanSleepIn(bool isWeekday, bool isVacation)
+        {
+            bool weCanSleepIn = false;
+
+            if (isWeekday == false || isVacation == true)
+            {
+                weCanSleepIn = true;
+            }
+
+            return weCanSleepIn;
+        }
+
+        public int SumDouble(int a, int b)
+        {
+            int mySum = 0;
+
+            if (a == b)
+            {
+                mySum = a * 4;
+            }
+            else
+            {
+                mySum = a + b;
+            }
+            return mySum;
+        }
+
+        public int Diff21(int n)
+        {
+            int myValue = 0;
+
+            if (n > 21)
+            {
+                myValue = Math.Abs(21 - n) * 2;
+            }
+            else
+            {
+                myValue = Math.Abs(21 - n);
+            }
+
+            return myValue;
+        }
+
+        public bool ParrotTrouble(bool isTalking, int hour)
+        {
+            // We are in trouble if the parrot is talking and the hour is before 7 or after 20.
+            bool weAreInTrouble = false;
+
+            if (hour < 7 && isTalking == true || hour > 20 && isTalking == true)
+            {
+                weAreInTrouble = true;
+            }
+
+            return weAreInTrouble;
+        }
+
+        public bool Makes10(int a, int b)
+        {
+            bool doesMake10 = false;
+            if (a == 10 || b == 10 || a + b == 10)
+            {
+                doesMake10 = true;
+            }
+            return doesMake10;
+        }
+        
+        public bool NearHundred(int n)
+        {
+            bool isCloseTo100 = false;
+            if (n > 89 && n < 111 || n > 189 && n < 211)
+            {
+                isCloseTo100 = true;
+            }
+            return isCloseTo100;
+        }
+        
+        public bool PosNeg(int a, int b, bool negative)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public string NotString(string s)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public string MissingChar(string str, int n)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public string FrontBack(string str)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public string Front3(string str)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public string BackAround(string str)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public bool Multiple3or5(int number)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public bool StartHi(string str)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public bool IcyHot(int temp1, int temp2)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public bool Between10and20(int a, int b)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public bool HasTeen(int a, int b, int c)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public bool SoAlone(int a, int b)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public string RemoveDel(string str)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public bool IxStart(string str)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public string StartOz(string str)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public int Max(int a, int b, int c)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public int Closer(int a, int b)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public bool GotE(string str)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public string EndUp(string str)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public string EveryNth(string str, int n)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

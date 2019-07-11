@@ -1,0 +1,17 @@
+D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\01-Basics\Assessments\Warmups\Start\Warmups.BLL\bin\Debug\Warmups.BLL.dll
+D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\01-Basics\Assessments\Warmups\Start\Warmups.BLL\bin\Debug\Warmups.BLL.pdb
+D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\01-Basics\Assessments\Warmups\Start\Warmups.BLL\obj\Debug\Warmups.BLL.csprojResolveAssemblyReference.cache
+D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\01-Basics\Assessments\Warmups\Start\Warmups.BLL\obj\Debug\Warmups.BLL.dll
+D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\01-Basics\Assessments\Warmups\Start\Warmups.BLL\obj\Debug\Warmups.BLL.pdb
+C:\Repos\OOPReviewFiles\Warmups.BLL\bin\Debug\Warmups.BLL.dll
+C:\Repos\OOPReviewFiles\Warmups.BLL\bin\Debug\Warmups.BLL.pdb
+C:\Repos\OOPReviewFiles\Warmups.BLL\obj\Debug\Warmups.BLL.csprojResolveAssemblyReference.cache
+C:\Repos\OOPReviewFiles\Warmups.BLL\obj\Debug\Warmups.BLL.csproj.CoreCompileInputs.cache
+C:\Repos\OOPReviewFiles\Warmups.BLL\obj\Debug\Warmups.BLL.dll
+C:\Repos\OOPReviewFiles\Warmups.BLL\obj\Debug\Warmups.BLL.pdb
+C:\Repos\PortfolioWork\Warmups\Warmups.BLL\bin\Debug\Warmups.BLL.dll
+C:\Repos\PortfolioWork\Warmups\Warmups.BLL\bin\Debug\Warmups.BLL.pdb
+C:\Repos\PortfolioWork\Warmups\Warmups.BLL\obj\Debug\Warmups.BLL.csprojResolveAssemblyReference.cache
+C:\Repos\PortfolioWork\Warmups\Warmups.BLL\obj\Debug\Warmups.BLL.csproj.CoreCompileInputs.cache
+C:\Repos\PortfolioWork\Warmups\Warmups.BLL\obj\Debug\Warmups.BLL.dll
+C:\Repos\PortfolioWork\Warmups\Warmups.BLL\obj\Debug\Warmups.BLL.pdb
