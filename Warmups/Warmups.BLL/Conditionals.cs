@@ -149,7 +149,18 @@ namespace Warmups.BLL
 
         public string Front3(string str)
         {
-            throw new NotImplementedException();
+            string myString = "";
+
+            if (str.Length <= 3)
+            {
+                myString = str + str + str;
+            }
+            if (str.Length >= 4)
+            {
+                myString = str.Substring(0, 3) + str.Substring(0, 3) + str.Substring(0, 3);
+            }
+
+            return myString;
         }
 
         public string BackAround(string str)
