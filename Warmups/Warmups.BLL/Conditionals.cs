@@ -165,7 +165,18 @@ namespace Warmups.BLL
 
         public string BackAround(string str)
         {
-            throw new NotImplementedException();
+            string myString = "";
+
+            if (str.Length < 1)
+            {
+                myString = str;
+            }
+            else
+            {
+                myString = str[str.Length - 1].ToString() + str + str[str.Length - 1].ToString();
+            }
+
+            return myString;
         }
 
         public bool Multiple3or5(int number)
