@@ -4,3 +4,10 @@ D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\02-Classes-And-Objects\Assess
 D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\02-Classes-And-Objects\Assessments\Battleship\BattleShip_Start\BattleShip.UI\obj\Debug\BattleShip.UI.csprojResolveAssemblyReference.cache
 D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\02-Classes-And-Objects\Assessments\Battleship\BattleShip_Start\BattleShip.UI\obj\Debug\BattleShip.UI.exe
 D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\02-Classes-And-Objects\Assessments\Battleship\BattleShip_Start\BattleShip.UI\obj\Debug\BattleShip.UI.pdb
+C:\Repos\PortfolioWork\Battleship\BattleShip.UI\bin\Debug\BattleShip.UI.exe.config
+C:\Repos\PortfolioWork\Battleship\BattleShip.UI\bin\Debug\BattleShip.UI.exe
+C:\Repos\PortfolioWork\Battleship\BattleShip.UI\bin\Debug\BattleShip.UI.pdb
+C:\Repos\PortfolioWork\Battleship\BattleShip.UI\obj\Debug\BattleShip.UI.csprojResolveAssemblyReference.cache
+C:\Repos\PortfolioWork\Battleship\BattleShip.UI\obj\Debug\BattleShip.UI.csproj.CoreCompileInputs.cache
+C:\Repos\PortfolioWork\Battleship\BattleShip.UI\obj\Debug\BattleShip.UI.exe
+C:\Repos\PortfolioWork\Battleship\BattleShip.UI\obj\Debug\BattleShip.UI.pdb
