@@ -34,9 +34,11 @@ namespace Factorizor
                 isValidNumber = int.TryParse(userInput, out int result);
                 userNumber = result;
 
-                if (!isValidNumber)
+                if (!isValidNumber || result == 0)
                 {
                     // Bad input
+                    isValidNumber = false; // redundant incase of "0" input.
+
                     Console.WriteLine("Your entry " + userInput + " is not a valid entry. Press any key to try again.");
                     Console.ReadKey();
                 }
@@ -55,27 +57,62 @@ namespace Factorizor
 
     class Calculator
     {
-        /// <summary>
-        /// Given a number, print the factors per the specification
-        /// </summary>
         public static void PrintFactors(int number)
         {
+            Console.Clear();
+            for (int i = 1; i <= number; i++)
+            {
+                if (number % i == 0)
+                {
+                    Console.Write(i.ToString() + " ");
+                }
+            }
 
+            Console.WriteLine();
+            Console.WriteLine("The numbers listed are your factors");
+            Console.ReadKey();
         }
 
-        /// <summary>
-        /// Given a number, print if it is perfect or not
-        /// </summary>
         public static void IsPerfectNumber(int number)
         {
+            int factorSum = 0;
+
+            for (int i = 1; i < number; i++)
+            {
+                if (number % i == 0)
+                {
+                    factorSum += i;
+                }
+            }
+            if (factorSum == number)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Your number is a Perfect Number!");
+                Console.ReadKey();
+            }
+
 
         }
 
-        /// <summary>
-        /// Given a number, print if it is prime or not
-        /// </summary>
         public static void IsPrimeNumber(int number)
         {
+            int factorSum = 0;
+
+            for (int i = 1; i < number; i++)
+            {
+                if (number % i == 0)
+                {
+                    factorSum += i;
+                }
+            }
+            if (factorSum == 1)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Your number is a Prime Number!");
+                Console.ReadKey();
+            }
+            Console.WriteLine();
+
 
         }
     }
