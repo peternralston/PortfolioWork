@@ -17,29 +17,34 @@ namespace GuessingGame
             Random r = new Random();
             theAnswer = r.Next(1, 21);
 
+            string userName = GetNameFromUser();
+
             do
             {
                 // get player input
+                
                 Console.Write("Enter your guess (1-20): ");
                 playerInput = Console.ReadLine();
+
+                // is number within range
 
                 //attempt to convert the string to a number
                 if (int.TryParse(playerInput, out playerGuess))
                 {
                     if (playerGuess == theAnswer)
                     {
-                        Console.WriteLine($"{theAnswer} was the number.  You Win!");
+                        Console.WriteLine($"{theAnswer} was the number.  Great job {userName} You Win!");
                         break;
                     }
                     else
                     {
                         if (playerGuess > theAnswer)
                         {
-                            Console.WriteLine("Your guess was too High!");
+                            Console.WriteLine($"Sorry {userName} Your guess was too High!");
                         }
                         else
                         {
-                            Console.WriteLine("Your guess was too low!");
+                            Console.WriteLine($"Sorry {userName} Your guess was too low!");
                         }
                     }
                 }
@@ -52,6 +57,17 @@ namespace GuessingGame
 
             Console.WriteLine("Press any key to quit.");
             Console.ReadKey();
+        }
+
+        public static string GetNameFromUser()
+        {
+            Console.WriteLine("Please Tell me your name!");
+            string userName = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Hello " + userName + "!! Welcome to the Guessing Game! Press any key to get started");
+            Console.ReadKey();
+
+            return userName;
         }
     }
 }
