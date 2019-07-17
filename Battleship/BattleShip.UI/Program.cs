@@ -10,6 +10,8 @@ namespace BattleShip.UI
     {
         static void Main(string[] args)
         {
+            Console.Write("THE BATTLE IS ABOUT TO BEGIN!!");
+            Console.ReadKey();
         }
     }
 }
