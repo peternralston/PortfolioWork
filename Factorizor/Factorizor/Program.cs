@@ -20,15 +20,36 @@ namespace Factorizor
             Console.ReadKey();
         }
 
-        /// <summary>
-        /// Prompt the user for an integer.  Make sure they enter a valid integer!
-        /// 
-        /// See the String Input lesson for TryParse() examples
-        /// </summary>
-        /// <returns>the user input as an integer</returns>
         static int GetNumberFromUser()
         {
-            throw new NotImplementedException();
+            bool isValidNumber = false;
+            int userNumber = 0;
+
+            while (!isValidNumber)
+            {
+                string userInput;
+                Console.Clear();
+                Console.WriteLine("What number would you like to factor?");
+                userInput = Console.ReadLine();
+                isValidNumber = int.TryParse(userInput, out int result);
+                userNumber = result;
+
+                if (!isValidNumber)
+                {
+                    // Bad input
+                    Console.WriteLine("Your entry " + userInput + " is not a valid entry. Press any key to try again.");
+                    Console.ReadKey();
+                }
+                else
+                {
+                    // Valid input
+                    Console.WriteLine("The number you chose was " + userNumber + ". Press any key to continue.");
+                    Console.ReadKey();
+                }
+            }
+
+
+            return userNumber;
         }
     }
 
