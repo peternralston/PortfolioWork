@@ -12,7 +12,25 @@ namespace FizzBuzz
 
         static void Execute()
         {
-            //TODO:  Implement FizzBuzz
+            for (int i = 0; i < 100; i++)
+            {
+                if (i % 3 != 0 && i % 5 != 0)
+                {
+                    Console.WriteLine(i);
+                }
+                if ( i % 3 == 0 && i % 5 == 0)
+                {
+                    Console.WriteLine(i + " FizzBuzz");
+                }
+                if (i % 3 == 0 && i % 5 != 0)
+                {
+                    Console.WriteLine(i + " Fizz");
+                }
+                if (i % 3 != 0 && i % 5 == 0)
+                {
+                    Console.WriteLine(i + " Buzz");
+                }
+            }
         }
     }
 }
