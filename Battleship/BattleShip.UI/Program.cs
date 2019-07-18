@@ -10,8 +10,12 @@ namespace BattleShip.UI
     {
         static void Main(string[] args)
         {
-            Console.Write("THE BATTLE IS ABOUT TO BEGIN!!");
-            Console.ReadKey();
+            ConsoleOutput ConsoleOutputs = new ConsoleOutput();
+            ConsoleInput userInputs = new ConsoleInput();
+            UserInformation playerInformation = new UserInformation();
+
+            userInputs = ConsoleOutputs.GameStartUp();
+
         }
     }
 }
