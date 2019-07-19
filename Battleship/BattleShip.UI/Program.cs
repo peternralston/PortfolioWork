@@ -10,12 +10,10 @@ namespace BattleShip.UI
     {
         static void Main(string[] args)
         {
-            ConsoleOutput ConsoleOutputs = new ConsoleOutput();
-            ConsoleInput userInputs = new ConsoleInput();
-            UserInformation playerInformation = new UserInformation();
-
-            userInputs = ConsoleOutputs.GameStartUp();
-
+            SetUpWorkFlow setUp = new SetUpWorkFlow();
+            setUp.Start();
+            GamePlayWorkFlow playGame = new GamePlayWorkFlow();
+            playGame.Start(setUp.GameState);
         }
     }
 }
