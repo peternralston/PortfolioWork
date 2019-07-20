@@ -11,3 +11,9 @@ C:\Repos\PortfolioWork\Battleship\BattleShip.UI\obj\Debug\BattleShip.UI.csprojRe
 C:\Repos\PortfolioWork\Battleship\BattleShip.UI\obj\Debug\BattleShip.UI.csproj.CoreCompileInputs.cache
 C:\Repos\PortfolioWork\Battleship\BattleShip.UI\obj\Debug\BattleShip.UI.exe
 C:\Repos\PortfolioWork\Battleship\BattleShip.UI\obj\Debug\BattleShip.UI.pdb
+C:\Repos\PortfolioWork\Battleship\BattleShip.UI\bin\Debug\BattleShip.BLL.dll
+C:\Repos\PortfolioWork\Battleship\BattleShip.UI\bin\Debug\Battleship.Tests.dll
+C:\Repos\PortfolioWork\Battleship\BattleShip.UI\bin\Debug\nunit.framework.dll
+C:\Repos\PortfolioWork\Battleship\BattleShip.UI\bin\Debug\BattleShip.BLL.pdb
+C:\Repos\PortfolioWork\Battleship\BattleShip.UI\bin\Debug\Battleship.Tests.pdb
+C:\Repos\PortfolioWork\Battleship\BattleShip.UI\bin\Debug\nunit.framework.xml

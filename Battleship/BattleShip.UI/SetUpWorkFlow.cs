@@ -10,9 +10,9 @@ namespace BattleShip.UI
         internal void Start()
         {
             SplashScreen();
-            SetUserNames(player1, player2);
-            SetUpBoards(player1, player2);
-            EndOfWorkflow();
+            SetUserNames();
+            SetUpBoards();
+            EndOfWorkflow(); // remove once workflow is complete
         }
 
         private void EndOfWorkflow()
@@ -25,36 +25,38 @@ namespace BattleShip.UI
         {
             Console.WriteLine("splash!!!");
             Console.ReadKey();
+            Console.Clear();
         }
 
-        public void SetUserNames(Player player1, Player player2) // choose names for players
+        public void SetUserNames() // choose names for players
         {
-            player1 = SetUserName(player1);
-            player2 = SetUserName(player2);
+            SetUserName(player1);
+            SetUserName(player2);
         }
 
-        private void SetUpBoards(Player player1, Player player2) // set up boards for players
+        private void SetUpBoards() // set up boards for players
         {
-            player1 = SetUpBoard(player1);
-            player2 = SetUpBoard(player2);
+            Console.WriteLine($"");
+            SetUpBoard(player1);
+            SetUpBoard(player2);
         }
 
         private Player SetUpBoard(Player player)
         {
             Console.Clear();
-            Console.WriteLine($"{player.GetPlayerName()} Please choose a your positions");
+            Console.WriteLine($"{player.Name} Please choose a your Battle Positions");
             player.SetBoardPositions();
             return player;
-
         }
 
-        private Player SetUserName(Player player) 
+        private void SetUserName(Player player)
         {
             Console.WriteLine("Please chose your name...");
-            player.SetPlayerName(Console.ReadLine());
+            player.Name = ("Admeral " + Console.ReadLine());
+            Console.WriteLine($"Welcome to the battle field {player.Name}");
+            Console.ReadKey();
             Console.Clear();
 
-            return player;
         }
 
     }

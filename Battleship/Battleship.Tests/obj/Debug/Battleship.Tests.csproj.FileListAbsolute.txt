@@ -7,3 +7,13 @@ D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\02-Classes-And-Objects\Assess
 D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\02-Classes-And-Objects\Assessments\Battleship\BattleShip_Start\Battleship.Tests\obj\Debug\Battleship.Tests.csprojResolveAssemblyReference.cache
 D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\02-Classes-And-Objects\Assessments\Battleship\BattleShip_Start\Battleship.Tests\obj\Debug\Battleship.Tests.dll
 D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\02-Classes-And-Objects\Assessments\Battleship\BattleShip_Start\Battleship.Tests\obj\Debug\Battleship.Tests.pdb
+C:\Repos\PortfolioWork\Battleship\Battleship.Tests\bin\Debug\Battleship.Tests.dll
+C:\Repos\PortfolioWork\Battleship\Battleship.Tests\bin\Debug\Battleship.Tests.pdb
+C:\Repos\PortfolioWork\Battleship\Battleship.Tests\bin\Debug\BattleShip.BLL.dll
+C:\Repos\PortfolioWork\Battleship\Battleship.Tests\bin\Debug\nunit.framework.dll
+C:\Repos\PortfolioWork\Battleship\Battleship.Tests\bin\Debug\BattleShip.BLL.pdb
+C:\Repos\PortfolioWork\Battleship\Battleship.Tests\bin\Debug\nunit.framework.xml
+C:\Repos\PortfolioWork\Battleship\Battleship.Tests\obj\Debug\Battleship.Tests.csprojResolveAssemblyReference.cache
+C:\Repos\PortfolioWork\Battleship\Battleship.Tests\obj\Debug\Battleship.Tests.csproj.CoreCompileInputs.cache
+C:\Repos\PortfolioWork\Battleship\Battleship.Tests\obj\Debug\Battleship.Tests.dll
+C:\Repos\PortfolioWork\Battleship\Battleship.Tests\obj\Debug\Battleship.Tests.pdb
