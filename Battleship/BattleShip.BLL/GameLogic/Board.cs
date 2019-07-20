@@ -100,7 +100,7 @@ namespace BattleShip.BLL.GameLogic
                     continue;
 
                 ShotStatus status = ship.FireAtShip(coordinate);
-
+                
                 switch (status)
                 {
                     case ShotStatus.HitAndSunk:
