@@ -13,6 +13,7 @@ namespace BattleShip.UI
             SetUpWorkFlow setUp = new SetUpWorkFlow();
             setUp.Start();
             GamePlayWorkFlow playGame = new GamePlayWorkFlow();
+            playGame.Start(setUp);
             // go to game play workflow
         }
     }

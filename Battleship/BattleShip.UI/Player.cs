@@ -18,9 +18,7 @@ namespace BattleShip.UI
 
         internal void SetBoardPositions()
         {
-             // Create a method for prompting, validating, and translating a user's coordinate
-            Console.WriteLine($"{_name}, please choose your Battle Positions for your ShipType");
-            Console.ReadLine();
+            // Create a method for prompting, validating, and translating a user's coordinate
 
             // Display a board
 

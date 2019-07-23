@@ -4,7 +4,7 @@ namespace BattleShip.UI
 {
     internal class GamePlayWorkFlow
     {
-        internal void Start(object gameState)
+        internal void Start(SetUpWorkFlow setUp)
         {
             throw new NotImplementedException();
         }
