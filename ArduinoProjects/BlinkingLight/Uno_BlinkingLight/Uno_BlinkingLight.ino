@@ -1,18 +1,15 @@
-int LED=13;
-int counter=0;
+int LED = 8;
+ 
 void setup() {
-  // put your setup code here, to run once:
-pinMode(LED,OUTPUT);
-Serial.begin(9600);
+ 
+//Serial.begin(19200);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  counter=counter+1;
-  Serial.print("Blink Number #");
-  Serial.println(counter);
-digitalWrite(13,HIGH);
-delay(1000);
+
+digitalWrite(LED,HIGH);
+delay(250);
 digitalWrite(LED,LOW);
-delay(1000);
+delay(250);
 }
+
